@@ -1,0 +1,9 @@
+name: Conditions
+on: push
+jobs:
+  skip-or-run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello"
+        # 条件分岐でrunを実行するか設定できる
+        if: ${{ contains(github.run_id, '1') }}
