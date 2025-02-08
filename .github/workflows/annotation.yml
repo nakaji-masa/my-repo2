@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "::error::This is an error"
-      - run: echo "::warning:: This is an error"
-      - run: echo "::notice:: This is an error"
+      - run: echo "::warning::This is an error"
+      - run: echo "::notice::This is an error"
