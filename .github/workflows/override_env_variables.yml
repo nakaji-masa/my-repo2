@@ -6,7 +6,7 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${EXAMPLE}"
+      - run: echo "${EXAMPLES}"
       - env:
           EXAMPLES: Defined by step level
-        run: echo "${EXAMPLE}" 
+        run: echo "${EXAMPLES}"
